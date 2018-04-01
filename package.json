@@ -1,0 +1,27 @@
+{
+  "name": "aws-lambda-starter-app",
+  "version": "1.0.0",
+  "description": "Simple serverless NodeJS application based on AWS Lambda and The Serverless framework.",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratiksolim/AWS-Lambda-Starter-App.git"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "Serverless"
+  ],
+  "author": "Pratik Solim <pratik.solim@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratiksolim/AWS-Lambda-Starter-App/issues"
+  },
+  "homepage": "https://github.com/pratiksolim/AWS-Lambda-Starter-App#readme",
+  "dependencies": {
+    "aws-sdk": "^2.218.1"
+  }
+}

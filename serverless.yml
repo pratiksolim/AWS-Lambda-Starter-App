@@ -1,0 +1,12 @@
+service: aws-lambda-starter-app
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  cron:
+    handler: handler.sendDailyMail
+    events:
+      # Invoke Lambda function every day
+      - schedule: rate(1 day)
